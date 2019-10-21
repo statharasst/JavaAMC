@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Askisi1 {
     public static void main(String [] args) {
-        // Askisi 1
+        /* Askisi emfanisi arntikiou thetiko kai iso me to 0 arithmou */
         System.out.println("Give decimal number: ");
         Scanner in = new Scanner(System.in);
         double double_number = in.nextDouble();
@@ -26,6 +26,6 @@ public class Askisi1 {
         else {
             System.out.println("# The integer number are positive #");
         }
-        // end
+        // Here we go aigain
     }
 }
