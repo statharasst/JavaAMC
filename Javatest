@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Askisi1 {
+    public static void main(String [] args) {
+        // Askisi 1
+        System.out.println("Give decimal number: ");
+        Scanner in = new Scanner(System.in);
+        double double_number = in.nextDouble();
+        if (double_number < 0) {
+            System.out.println("# The decimal number are negative #");
+        }
+        else if (double_number == 0){
+            System.out.println("# The decimal number equals to zero #");
+        }
+        else {
+            System.out.println("# The decimal number are positive #");
+        }
+        System.out.println("Give a integer number: ");
+        int int_number = in.nextInt();
+        if (int_number < 0) {
+            System.out.println("# The integer number are negative #");
+        }
+        else if (int_number == 0){
+                System.out.println("# The integer number equals to zero #");
+        }
+        else {
+            System.out.println("# The integer number are positive #");
+        }
+        // end
+    }
+}
