@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class MenuOpperations {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int choice = 0;
+        System.out.println("# Menu of Math Operations #");
+        System.out.println("# Press 1 for Additions #");
+        System.out.println("# Press 2 for Subtraction#");
+        System.out.println("# Press 3 for Multiplication #");
+        System.out.println("# Press 4 for Division #");
+        choice = in.nextInt();
+        System.out.println("Enter first number: ");
+        double number1 = in.nextDouble();
+        System.out.println("Enter second number: ");
+        double number2 = in.nextDouble();
+        int result = 0;
+        if (choice == 1) {
+            result = (int) (number1 + number2);
+            System.out.println("Result of Additions is: " + result);
+        } else if (choice == 2) {
+            result = (int) (number1 - number2);
+            System.out.println("Result of Subtraction is: " + result);
+        } else if (choice == 3) {
+            result = (int) (number1 * number2);
+            System.out.println("Result of Multiplication is: " + result);
+            }
+        else if (choice == 4) {
+            double number1_d = (int) number1;
+            double number2_d = (int) number2;
+            System.out.println("Result if Division: " + (number1_d / number2_d));
+        }
+    }
+}
